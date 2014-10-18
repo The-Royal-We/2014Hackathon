@@ -13,7 +13,7 @@
 
   </script>
     <style>
-     #mapDiv{
+     #map{
       padding: 0;
       margin: 0;
       height: 100%;
@@ -32,7 +32,10 @@
       <p>Create a responsive table (will scroll horizontally on small devices under 768px). In addition: add alternating cell background color:</p>      
       <div class="panel panel-default">
         <div class="panel-body">
-          <div id="mapDiv"></div>
+          <div id="map" 
+             data-dojo-type="dijit/layout/ContentPane" 
+             data-dojo-props="region:'center'">
+        </div>
 
         </div>
       </div>
